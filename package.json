@@ -1,0 +1,35 @@
+{
+  "name": "pipeline",
+  "version": "1.0.0",
+  "description": "Work like pipeline",
+  "main": "dist/pipeline.js",
+  "license": "MIT",
+  "author": "ito",
+  "private": true,
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-decorators": "^7.2.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/runtime": "^7.2.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-plugin-import": "^2.14.0",
+    "webpack": "^4.28.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "async-exit-hook": "^2.0.1",
+    "fs-extra": "^7.0.1",
+    "globby": "^9.2.0",
+    "is-glob": "^4.0.1"
+  }
+}
